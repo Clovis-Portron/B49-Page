@@ -10,6 +10,7 @@ const html = `
     <html>
         <head>
             <script src="./index.bundle.js"></script>
+            <meta charset="utf-8" />
         </head>
         <body>
             <div id="root">

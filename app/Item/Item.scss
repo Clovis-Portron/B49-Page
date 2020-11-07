@@ -1,0 +1,19 @@
+.component-item {
+    display: inline-block;
+    border-radius: 1.3rem;
+    background-color: #f1f0f0;
+    overflow: hidden;
+
+    width: 20%;
+    min-width: 200px;
+    max-width: 400px;
+
+    font-family: Helvetica Neue, Segoe UI, Helvetica, Arial, sans-serif;
+
+    color: rgba(0,0,0,0.7);
+
+    img {
+        width: auto;
+        height: 150px;
+    }
+}

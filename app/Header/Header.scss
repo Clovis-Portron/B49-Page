@@ -1,0 +1,30 @@
+.component-header {
+
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .10);
+
+    .logo {
+        position: relative;
+
+        img {
+            $size: 50px;
+            width: $size;
+            height: $size;
+            border-radius: 100%;
+        }
+
+        .point {
+            $size: 12px;
+
+            display: block;
+            position: absolute;
+            width: $size;
+            height: $size;
+            border-radius: 100%;
+            background-color: greenyellow;
+            border: 1px solid white;
+
+            bottom: 0; 
+            right: 5px;
+        }
+    }
+}
