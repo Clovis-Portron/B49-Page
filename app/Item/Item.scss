@@ -5,12 +5,18 @@
     overflow: hidden;
 
     width: 20%;
-    min-width: 200px;
+    min-width: 300px;
     max-width: 400px;
 
     font-family: Helvetica Neue, Segoe UI, Helvetica, Arial, sans-serif;
 
     color: rgba(0,0,0,0.7);
+
+    @media screen and (max-width: 500px) {
+        width: 90%;
+        max-width: initial;
+        min-width: 90%;
+    }
 
     &:hover {
         transform: scale(1.05, 1.05);
@@ -22,7 +28,7 @@
     }
 
     .by {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .image {
