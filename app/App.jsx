@@ -12,7 +12,7 @@ export default class App extends React.Component {
             <React.Fragment>
                 <div className="d-flex flex-column">
                     <Header />
-                    <div className="text-center pt-4 flex-grow-1">
+                    <div className="text-center py-4 flex-grow-1">
                         {
                             db.links.map((link) => <Item 
                                 key={link.href}
