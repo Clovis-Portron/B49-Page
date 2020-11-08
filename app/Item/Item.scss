@@ -12,8 +12,55 @@
 
     color: rgba(0,0,0,0.7);
 
-    img {
-        width: auto;
+    &:hover {
+        transform: scale(1.05, 1.05);
+        transition: transform 0.2s ease;
+        .image::after {
+            transform: scale(1.1, 1.1);
+            transition: all 0.2s ease;
+        }
+    }
+
+    .by {
+        font-size: 0.8rem;
+    }
+
+    .image {
+        width: 100%;
         height: 150px;
+        position: relative;
+
+        &::after {
+            content: "";
+            display: block;
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+
+            background-image: inherit;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+
+        &::before {
+            content: "";
+            display: block;
+            position: absolute;
+            z-index: 0;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: inherit;
+            background-size: 110% 110%;
+            background-position: center center;
+            filter: blur(10px);
+            overflow: hidden;
+        }
     }
 }

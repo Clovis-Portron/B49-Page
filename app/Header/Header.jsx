@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Logo from './../../res/logo.jpg';
+import B from './../../res/b.png';
 
 export default class Header extends React.Component {
 
@@ -15,8 +16,8 @@ export default class Header extends React.Component {
                         </div>
                     </div>
                     <div className="col p-2">
-                        <h2 className="mb-0">
-                            🅱49
+                        <h2 className="mb-0 title">
+                            <img className="" src={B} /><span className="align-middle">49</span>
                         </h2>
                     </div>
                     <div className="col-auto px-2">

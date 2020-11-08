@@ -1,0 +1,15 @@
+#root {
+
+    &>.d-flex {
+        min-height: 100vh;
+    }
+
+    a {
+        color: #EF9517;
+    }
+
+    @import './../app/Header/Header.scss';
+    @import './../app/Item/Item.scss';
+    @import './../app/Footer/Footer.scss';
+
+}

@@ -4,25 +4,41 @@
             "image": "https://shibadaydreaming.files.wordpress.com/2015/01/shiba-inu.jpg",
             "title": "Prout",
             "description": "Prout prout prout",
-            "href": "http://google.com"
+            "href": "http://google.com",
+            "by": {
+                "name": "Verrara Fercent",
+                "href": "https://google.fr"
+            }
         },
         {
             "image": "https://shibadaydreaming.files.wordpress.com/2015/01/shiba-inu.jpg",
             "title": "Prout",
             "description": "Prout prout prout",
-            "href": "http://google.com"
+            "href": "http://google.com",
+            "by": {
+                "name": "Verrara Fercent",
+                "href": "https://google.fr"
+            }
         },
         {
             "image": "https://shibadaydreaming.files.wordpress.com/2015/01/shiba-inu.jpg",
             "title": "Prout",
             "description": "Prout prout prout",
-            "href": "http://google.com"
+            "href": "http://google.com",
+            "by": {
+                "name": "Verrara Fercent",
+                "href": "https://google.fr"
+            }
         },
         {
             "image": "https://shibadaydreaming.files.wordpress.com/2015/01/shiba-inu.jpg",
             "title": "Prout",
             "description": "Prout prout prout",
-            "href": "http://google.com"
+            "href": "http://google.com",
+            "by": {
+                "name": "Verrara Fercent",
+                "href": "https://google.fr"
+            }
         }
     ]
 }
